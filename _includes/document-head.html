@@ -9,3 +9,13 @@
 {% for e in page.js %}
 <script type="text/javascript" src="{{site.baseurl}}/js/{{e}}.js"></script>
 {% endfor %}
+<style>
+  body {
+        background-image: url({{site.baseurl}}/Images/image.png);
+        opacity: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 100vh;
+  }
+</style>
