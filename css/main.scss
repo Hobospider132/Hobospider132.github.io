@@ -29,7 +29,7 @@
 // VARIABLES
 $main-colors: #e62727, #e67a27, #33e627, #2780e6, #da27e6;
 $hover-colors: #b31e1e, #b35d1e, #2ab31e, #1e63b3, #a71eb3;
-$images: "/Images/1.png", "/Images/2.png", "/Images/3.png", "/Images/4.png", "/Images/5.png", "/Images/image.png";
+$images: "/Images/image.png";
 $animation-duration: 50s;
 
 // GENERAL
@@ -383,33 +383,33 @@ body {
         opacity: 1;
     }
     19% {
-        background-image: url({{site.baseurl}}/Images/1.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     20% {
-        background-image: url({{site.baseurl}}/Images/2.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     30% {
         opacity: 1;
     }
     39% {
-        background-image: url({{site.baseurl}}/Images/3.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     40% {
-        background-image: url({{site.baseurl}}/Images/3.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     50% {
         opacity: 1;
     }
     59% {
-        background-image: url({{site.baseurl}}/Images/4.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     60% {
-        background-image: url({{site.baseurl}}/Images/5.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }   
     70% {
@@ -420,28 +420,28 @@ body {
         opacity: 0;
     }   
     80% {
-        background-image: url({{site.baseurl}}/Images/1.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }   
     90% {
         opacity: 1;
     }   
     99% {
-        background-image: url({{site.baseurl}}/Images/2.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     100% {
-        background-image: url({{site.baseurl}}/Images/3.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
 }
 @include keyframes(images2) {
     0% {
-        background-image: url({{site.baseurl}}/Images/4.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 1;
     }
     9% {
-        background-image: url({{site.baseurl}}/Images/5.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     10% {
@@ -452,29 +452,29 @@ body {
         opacity: 1;
     }
     29% {
-        background-image: url({{site.baseurl}}/Images/1.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     30% {
-        background-image: url({{site.baseurl}}/Images/2.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     40% {
         opacity: 1;
     }
     49% {
-        background-image: url({{site.baseurl}}/Images/3.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     50% {
-        background-image: url({{site.baseurl}}/Images/4.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }
     60% {
         opacity: 1;
     }
     69% {
-        background-image: url({{site.baseurl}}/Images/5.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }   
     70% {
@@ -485,15 +485,15 @@ body {
         opacity: 1;
     }   
     89% {
-        background-image: url({{site.baseurl}}/Images/1.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }   
     90% {
-        background-image: url({{site.baseurl}}/Images/2.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 0;
     }   
     100% {
-        background-image: url({{site.baseurl}}/Images/3.png);
+        background-image: url({{site.baseurl}}/Images/image.png);
         opacity: 1;
     }
 }
