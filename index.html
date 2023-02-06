@@ -1,7 +1,25 @@
 <!DOCTYPE html>
 <html lang="en-us">
 	<head>
-	    {% include document-head.html %}
+		    <meta charset="UTF-8">
+	<title>{% if page.title %}{{page.title}} - {% endif %}{{site.name}}</title>
+	<meta name="description" content="{{site.description}}"/>
+	<meta name="author" content="{{site.author}}"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
+	{% for e in page.js %}
+	<script type="text/javascript" src="{{site.baseurl}}/js/{{e}}.js"></script>
+	{% endfor %}
+	<style>
+	  body {
+		background-image: url({{site.baseurl}}/Images/image.png);
+		opacity: 0;
+		background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		height: 100vh;
+	  }
+	</style>
 	</head>
   	<body>
 	    <div class="site-body">
