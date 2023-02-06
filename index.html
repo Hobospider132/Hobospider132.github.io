@@ -18,18 +18,33 @@
 		height: 100vh;
 	  }
 	</style> -->
-	<style>  
-		.site-footer {  
-			position: fixed;  
-			left: 10px;  
-			bottom: 5px;  
-			right: 10px;   
-			width: 95%;  
-			background-color: gray;  
-			color: white;  
-			text-align: center;  
-		}  
-	</style>  
+	<style>
+		.site-footer {
+		    @include display-flex;
+		    padding: 5px 20px;
+		    background-color: rgba(0, 0, 0, .9);
+		    color: hsla(0, 0%, 100%, .7);
+		    font-size: 13px;
+		    @include prefix(user-select, none);
+		    & > .left {
+			margin-right: auto;
+		    }
+		    & > .right {
+			margin-left: auto;
+		    }
+		    & > * > * {
+			margin: 0 5px;
+		    }
+		    a {
+			color: hsla(0, 0%, 100%, .7);
+			@include prefix(transition, all .15s ease-in-out);
+			&:hover {
+			    color: #fff;
+			    text-decoration: none;
+			}
+		    }
+		}
+	</style>
   	<body>
 	<h1><strong>Hello!</strong></h1>
         <p><br>So there actually isn't anything here yet due to the fact that this is a side project of mine and I'm currently busy with school.
