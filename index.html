@@ -1,4 +1,28 @@
----
-layout: default
----
-<p>Hello, this is a test, gonna make an original website now :) <a href="page 1.html">Page 1</a>
+<!DOCTYPE html>
+<html lang="en-us">
+	<head>
+	    {% include document-head.html %}
+	</head>
+  	<body>
+	    <div class="site-body">
+			<div class="container">
+				{{content}}
+			</div>
+			<noscript>
+				<div class="warning">
+					<div class="title">This page requires JavaScript to work properly</div>
+					<div class="text">
+						Please enable JavaScript. This website is safe, dwai!<br>
+						If you don't trust me, check the <a href="https://github.com/Hobospider132/Hobospider132.github.io">source code</a>.
+					</div>
+				</div>
+				<style>
+					.container {
+						display: none !important;
+					}
+				</style>
+			</noscript>
+		</div>
+	    {% include footer.html %}
+	</body>
+</html>
